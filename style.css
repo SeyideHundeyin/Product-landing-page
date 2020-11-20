@@ -1,0 +1,344 @@
+/* this is for the first section*/
+
+#header {
+    background-image: url("https://demo.web3canvas.com/themeforest/proland/images/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 105px;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e7e7e7 0.9;
+    width: 100%;
+}
+
+#nav-bar,
+.nav-link {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-family: poppins, sans-serif;
+    font-size: 4vw;
+    color: #374048;
+    margin: 0 0 20px;
+    letter-spacing: -1px;
+    padding-top: 50px;
+}
+
+#description {
+    font-family: poppins, sans-serif;
+    font-size: 3vh;
+    letter-spacing: -.2px;
+    display: inline-block;
+    max-width: 700px;
+    margin-top: -15px;
+}
+
+#email {
+    max-width: 400px;
+    width: 300px;
+    padding: 15px;
+    margin-top: 25px;
+    border: solid;
+    border-radius: 6px;
+}
+
+#email:focus {
+    background-color: lightblue;
+    border: 3px solid #555;
+}
+
+::placeholder {
+    color: red;
+    text-align: center;
+}
+
+#submit {
+    display: flex;
+}
+
+#submit {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 2.5vh;
+    padding: 13px 32px;
+    text-transform: uppercase;
+    margin: 4px 0px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+#submit:hover {
+    background-color: #8b0000;
+    transform: scale(1.1);
+    border-radius: 7px;
+}
+
+#watch {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 460px) {
+    #nav-bar,
+    .nav-link {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+    #header-img {
+        display: flex;
+    }
+}
+
+
+/*end of the first section and begining of the second one*/
+
+#Features {
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 3.5em;
+}
+
+h2 {
+    font-family: poppins;
+    font-size: 5vh;
+    margin-bottom: 20px;
+    color: #374048;
+}
+
+#product-desc {
+    font-family: poppins, sans-serif;
+    font-size: 2.5vh;
+    letter-spacing: -.2px;
+    max-width: 700px;
+    margin-bottom: 20px;
+    display: flex;
+    display: inline-block;
+}
+
+#video {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-radius: 17px;
+}
+
+@media (max-width: 460px) {
+    #video,
+    h1 {
+        width: 100% !important;
+        height: auto !important;
+        font-size: 4vh;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 460px) {
+    #description {
+        font-size: 2.5vh;
+    }
+}
+
+
+/*end of the second section and begining of the third one*/
+
+#third {
+    background-color: white;
+    padding: 3.5em;
+}
+
+#review {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+
+#new {
+    font-family: poppins, sans-serif;
+    font-size: 5vh;
+    color: #374048;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin: 0 0 25px;
+}
+
+#review-desc {
+    font-family: sans-serif;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 20px;
+    width: 100%;
+    font-size: 2.5vh;
+    letter-spacing: -.2px;
+}
+
+#single {
+    display: flex;
+    flex-direction: row;
+}
+
+#single-reviews {
+    padding: 13px 15px 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 3.0vh;
+}
+
+@media (max-width: 460px) {
+    #single {
+        font-size: 2.5vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 460px) {
+    #review-desc {
+        font-size: 2.3vh;
+        margin-top: -20px;
+    }
+}
+
+
+/*end of the third section and begining of the fourth one*/
+
+#Contact {
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 3.5em;
+}
+
+#contact-title {
+    font-family: poppins;
+    font-size: 5vh;
+    margin: 3rem;
+    color: #374048;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin: 0 0 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px
+}
+
+.inputs {
+    color: black;
+    min-width: 300px;
+    min-height: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+input[type='text'] {
+    margin-top: 60px;
+    height: 50px;
+    border: solid;
+    border-radius: 7px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+input[type='email'] {
+    height: 50px;
+    border: solid;
+    border-radius: 7px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+textarea {
+    height: 50px;
+    border: solid;
+    border-radius: 7px;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 100%;
+}
+
+button {
+    font-family: sans-serif;
+    background: red;
+    outline: 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 3vh;
+}
+
+button:hover {
+    background-color: #8b0000;
+    transform: scale(1.1);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+/*footer section*/
+
+#footer {
+    padding: 19px;
+    background: white;
+    text-align: center;
+    font-size: 3vh;
+    font-family: sans-serif
+}
